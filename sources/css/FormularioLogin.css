@@ -1,0 +1,69 @@
+body {
+    background: url('/sources/img/Login.jpg') no-repeat center top;
+    background-size: cover;
+}
+#Login {
+    width: 100%;
+}
+#FormularioLogin {
+    width: 320px;
+    height: 420px;
+    background: rgba(0, 0, 0, 0.61);
+    color: white;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+#FormularioLogin .Logo {
+    /* border-radius: 50%; */
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px)
+}
+#FormularioLogin h1 {
+    margin: 0;
+    padding-bottom: 20px;
+    text-align: center;
+}
+#FormularioLogin label {
+    margin: 0 0 2px 0;
+    padding: 0 2px;
+    font-weight: 600;
+    font-size: 20px;
+    display: block;
+}
+#FormularioLogin input {
+    width: 100%;
+    margin: 0 0 20px 0;
+}
+
+#FormularioLogin input[type="text"],
+#FormularioLogin input[type="password"] {
+    border: none;
+    border-bottom: 0.5px solid white;
+    background: transparent;
+    color: white;
+    padding: 5px 2px;
+}
+
+#FormularioLogin input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #b80f22;
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+}
+#FormularioLogin input[type="submit"]:hover {
+    cursor: pointer;
+    background: #bb2738;
+}
+#FormularioLogin input[type="submit"]:active {
+    background: #b80f22;
+}

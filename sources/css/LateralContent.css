@@ -1,0 +1,66 @@
+#Index {
+    display: flex;
+}
+:root {
+    --traslado: -90%,0;
+    --espacio: 20px;
+    --LCursor: pointer;
+}
+#SpaceLC {
+    background-color: red;
+    margin-right: var(--espacio);
+}
+#LateralContent {
+    background-color: rgba(0, 0, 0, 0.61);
+    width: 20%;
+    height: 100%;
+    position: fixed;
+    transform: translate(var(--traslado));
+    color: white;
+    display: block;
+}
+#LateralContent:hover {
+    /* background-color: rgba(0, 0, 0, 0.815); */
+    cursor: var(--LCursor);
+}
+#LateralContent:active {
+    transform: translate(var(--traslado));
+}
+
+/* LC contenido */
+#LCLogoDiv {
+    width: 100%;
+    padding: 5px 0;
+}
+#LCLogo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: auto;
+}
+
+#LCNombreDiv {
+    width: 100%;
+    text-align: center;
+}
+#Edit {
+    width: 10px;
+    height: 10px;
+    margin-left: 5px;
+}
+#LCNombre {
+    margin: 10px 0;
+    font-size: 28px;
+}
+#LCContent {
+    padding: 20px;
+    text-align: center;
+}
+#cLC {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+#cLC p:hover {
+    cursor: pointer
+}
