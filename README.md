@@ -1,6 +1,17 @@
 # Certae (Public Version)
 This is a desktop app make in Golang (No contains code, my code is in private repository) | Work In Progress!
+
 ---
+```
+Atention!
+Actually the app can't run cause i am in progress to protect the key of firebase to distribution of the app.
+```
+
+```
+Atención!
+La aplicación no puede ejecutarse correctamente por ahora por que aún no encuentro la forma correcta de mantener segura la key de Firebase.
+```
+
 ## Getting Started
 ### English
 You only need execute the "app.exe" file; when you execute the file you can go to "localhost" in your favorite browser.
